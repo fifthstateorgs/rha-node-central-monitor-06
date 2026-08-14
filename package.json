@@ -1,0 +1,16 @@
+{
+  "name": "rha-node-central-monitor-06",
+  "version": "1.0.0",
+  "description": "RHA Central Monitor – Recruitment & Policy Feed Gateway",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["rha", "central", "recruitment", "policy", "gateway"],
+  "author": "fifthstateorgs",
+  "license": "MIT",
+  "config": {
+    "ENDPOINT_URI": "https://decoderha.pages.dev/",
+    "STATIC_PASSKEY": "RSRX-INDIA"
+  }
+}
